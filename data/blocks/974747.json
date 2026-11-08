@@ -1,0 +1,150 @@
+{
+ "height": 974747,
+ "hash": "00000000000000000001d2e5df3c36271961213334b5fcf04d2fb36033cf62b4",
+ "pool": "MARA Pool",
+ "tx_count": 4207,
+ "size": 2246945,
+ "unseen_txs": 3,
+ "pools": {
+  "ViaBTC": {
+   "first_job_ms": 0.0,
+   "first_job_empty": true,
+   "first_filled_job_ms": 837.8
+  },
+  "ntminerPool": {
+   "first_job_ms": 197.5,
+   "first_job_empty": true,
+   "first_filled_job_ms": 851.4
+  },
+  "DogPool": {
+   "first_job_ms": 196.3,
+   "first_job_empty": true,
+   "first_filled_job_ms": 936.4
+  },
+  "F2Pool": {
+   "first_job_ms": 201.4,
+   "first_job_empty": true,
+   "first_filled_job_ms": 551.2
+  },
+  "TrustPool": {
+   "first_job_ms": 237.5,
+   "first_job_empty": true,
+   "first_filled_job_ms": 1099.1
+  },
+  "SpiderPool": {
+   "first_job_ms": 239.3,
+   "first_job_empty": true,
+   "first_filled_job_ms": 595.9
+  },
+  "BitFuFu": {
+   "first_job_ms": 242.1,
+   "first_job_empty": true,
+   "first_filled_job_ms": 590.5
+  },
+  "Parasite": {
+   "first_job_ms": 275.9,
+   "first_job_empty": false,
+   "first_filled_job_ms": 275.9
+  },
+  "AtlasPool": {
+   "first_job_ms": 281.3,
+   "first_job_empty": false,
+   "first_filled_job_ms": 281.3
+  },
+  "Luxor": {
+   "first_job_ms": 423.2,
+   "first_job_empty": true,
+   "first_filled_job_ms": 772.6
+  },
+  "Lincoin": {
+   "first_job_ms": 452.3,
+   "first_job_empty": true,
+   "first_filled_job_ms": 1102.7
+  },
+  "MARA Pool": {
+   "first_job_ms": 452.0,
+   "first_job_empty": false,
+   "first_filled_job_ms": 452.0
+  },
+  "SecPool": {
+   "first_job_ms": 453.2,
+   "first_job_empty": true,
+   "first_filled_job_ms": 839.9
+  },
+  "Poolin": {
+   "first_job_ms": 473.6,
+   "first_job_empty": true,
+   "first_filled_job_ms": 521.3
+  },
+  "CloverPool": {
+   "first_job_ms": 497.3,
+   "first_job_empty": true,
+   "first_filled_job_ms": 545.1
+  },
+  "Binance": {
+   "first_job_ms": 505.7,
+   "first_job_empty": true,
+   "first_filled_job_ms": 548.9
+  },
+  "Antpool": {
+   "first_job_ms": 505.6,
+   "first_job_empty": true,
+   "first_filled_job_ms": 867.2
+  },
+  "Ckpool": {
+   "first_job_ms": 680.0,
+   "first_job_empty": false,
+   "first_filled_job_ms": 680.0
+  },
+  "Rawpool": {
+   "first_job_ms": 682.1,
+   "first_job_empty": true,
+   "first_filled_job_ms": 1646.1
+  },
+  "SigmaPool": {
+   "first_job_ms": 713.5,
+   "first_job_empty": true,
+   "first_filled_job_ms": 1144.7
+  },
+  "K8X": {
+   "first_job_ms": 727.5,
+   "first_job_empty": true,
+   "first_filled_job_ms": 1025.3
+  },
+  "Braiins Solo": {
+   "first_job_ms": 954.4,
+   "first_job_empty": false,
+   "first_filled_job_ms": 954.4
+  },
+  "Braiins": {
+   "first_job_ms": 1328.6,
+   "first_job_empty": true,
+   "first_filled_job_ms": 1707.3
+  },
+  "EMCD": {
+   "first_job_ms": 1342.4,
+   "first_job_empty": true,
+   "first_filled_job_ms": 2638.7
+  },
+  "PublicPool": {
+   "first_job_ms": 2896.1,
+   "first_job_empty": true,
+   "first_filled_job_ms": 3641.0
+  },
+  "PyBLOCK": {
+   "first_job_ms": 5062.5,
+   "first_job_empty": true,
+   "first_filled_job_ms": 5138.8
+  },
+  "WhiteBIT": {
+   "first_job_ms": 9921.1,
+   "first_job_empty": false,
+   "first_filled_job_ms": 9921.1
+  },
+  "Tpool": {
+   "first_job_ms": 297394.2,
+   "first_job_empty": false,
+   "first_filled_job_ms": 297394.2
+  }
+ }
+}
