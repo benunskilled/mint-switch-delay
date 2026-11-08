@@ -10,6 +10,14 @@ Nov 3–8, 2026), compared with normal blocks.
 - `analyze.py` – reproduces every number in the post (`python3 analyze.py`, or `--csv` for the table)
 - `mint-blocks.csv` – the 41 mint blocks, as in the post's table
 - `collect.py` – fetches more blocks from the public APIs (`python3 collect.py <from> [to]`)
+- `destinations.py` – where the mints in the 41 mint blocks go (fetches the raw blocks from mempool.space);
+  writes `data/mint-destinations.csv`
+
+**Mint destinations.** A transaction counts as a mint if it carries the runestone `6a5d0414011400`. The rune
+goes to its first output that isn't OP_RETURN. If that is P2A, the next link in the chain spends it and the
+runes move on; every chain ends at an address in the same block. Across the 41 blocks, 54 % of all mints end
+at `bc1qq9qx0jj6glxe7dcgj98uke8yr4ze7sadt2qjgj` (40 blocks) and 28 % at
+`bc1qmcvv20xmujhhelyas5r59gkgvl92dhdwr9v4t4` (33 blocks).
 
 **Method.** For block H, jobs come from `stratum.work/api/mining-notify?height=H+1`, kept if their prevhash
 is H. Each pool's first job is measured from the earliest pool, and a block's delay is the median over all
